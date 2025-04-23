@@ -194,7 +194,7 @@ def gerar_pdf():
     c.drawString(margin, y, "FOTOS DO VEÍCULO:")
     y -= 20
     c.setFont("Times-Roman", 10)
-    c.drawString(margin, y, "As imagens a seguir correspondem aos ângulos descritos abaixo.")
+    c.drawString(margin, y, "")
 
     c.showPage()
     num_pagina += 1
